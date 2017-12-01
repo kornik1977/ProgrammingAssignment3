@@ -12,7 +12,7 @@ subject - the ID of the test subject
 
 #### 66 variables (measurements) were estimated : 
 
-average and standard deviation of body linear accelerations in time (saparately for every axis (X, Y, Z))  
+"average and standard deviation of body linear accelerations in time (saparately for every axis (X, Y, Z))"  
 timeBodyAccmeanX  
 timeBodyAccmeanY  
 timeBodyAccmeanZ  
@@ -20,7 +20,7 @@ timeBodyAccstdX
 timeBodyAccstdY  
 timeBodyAccstdZ  
 
-average and standard deviation of gravity linear accelerations in time (saparately for every axis (X, Y, Z))  
+"average and standard deviation of gravity linear accelerations in time (saparately for every axis (X, Y, Z))"  
 timeGravityAccmeanX  
 timeGravityAccmeanY  
 timeGravityAccmeanZ  
@@ -28,7 +28,7 @@ timeGravityAccstdX
 timeGravityAccstdY  
 timeGravityAccstdZ  
 
-avarege and standard deviation of body linear accelerations in time to obtain Jerk signal (saparately for every axis (X, Y, Z))  
+"avarege and standard deviation of body linear accelerations in time to obtain Jerk signal (saparately for every axis (X, Y, Z))"  
 timeBodyAccJerkmeanX  
 timeBodyAccJerkmeanY  
 timeBodyAccJerkmeanZ  
@@ -36,7 +36,7 @@ timeBodyAccJerkstdX
 timeBodyAccJerkstdY  
 timeBodyAccJerkstdZ  
 
-average and standard deviation of body angular velocities in time (saparately for every axis (X, Y, Z))  
+"average and standard deviation of body angular velocities in time (saparately for every axis (X, Y, Z))"  
 timeBodyGyromeanX  
 timeBodyGyromeanY  
 timeBodyGyromeanZ  
@@ -44,7 +44,7 @@ timeBodyGyrostdX
 timeBodyGyrostdY  
 timeBodyGyrostdZ  
 
-average and standard deviation of body angular velocities in time to obtain Jerk signal (saparately for every axis (X, Y, Z))  
+"average and standard deviation of body angular velocities in time to obtain Jerk signal (saparately for every axis (X, Y, Z))"  
 timeBodyGyroJerkmeanX  
 timeBodyGyroJerkmeanY  
 timeBodyGyroJerkmeanZ  
@@ -52,27 +52,27 @@ timeBodyGyroJerkstdX
 timeBodyGyroJerkstdY  
 timeBodyGyroJerkstdZ  
 
-average and standard deviation of body linear accelerations magnitude in time  
+"average and standard deviation of body linear accelerations magnitude in time"  
 timeBodyAccMagmean  
 timeBodyAccMagstd  
 
-average and standard deviation of gravity linear accelerations magnitude in time  
+"average and standard deviation of gravity linear accelerations magnitude in time"  
 timeGravityAccMagmean  
 timeGravityAccMagstd  
 
-average and standard deviation of body linear accelerations magnitude in time to obtain Jerk signal  
+"average and standard deviation of body linear accelerations magnitude in time to obtain Jerk signal"  
 timeBodyAccJerkMagmean  
 timeBodyAccJerkMagstd  
 
-average and standard deviation of body angular velocities magnitude in time  
+"average and standard deviation of body angular velocities magnitude in time"  
 timeBodyGyroMagmean  
 timeBodyGyroMagstd  
 
-avarege and standard deviation of body angular velocities magnitude in time to obtain Jerk signal  
+"avarege and standard deviation of body angular velocities magnitude in time to obtain Jerk signal"  
 timeBodyGyroJerkMagmean  
 timeBodyGyroJerkMagstd  
 
-average and standard deviation of body linear accelerations for frequency (saparately for every axis (X, Y, Z)
+"average and standard deviation of body linear accelerations for frequency (saparately for every axis (X, Y, Z)"
 freqBodyAccmeanX  
 freqBodyAccmeanY  
 freqBodyAccmeanZ   
@@ -80,7 +80,7 @@ freqBodyAccstdX
 freqBodyAccstdY  
 freqBodyAccstdZ  
 
-avarege and standard deviation of body linear accelerations for frequency to obtain Jerk signal (saparately for every axis (X, Y, Z))  
+"avarege and standard deviation of body linear accelerations for frequency to obtain Jerk signal (saparately for every axis (X, Y, Z))"  
 freqBodyAccJerkmeanX  
 freqBodyAccJerkmeanY  
 freqBodyAccJerkmeanZ  
@@ -88,7 +88,7 @@ freqBodyAccJerkstdX
 freqBodyAccJerkstdY  
 freqBodyAccJerkstdZ  
  
-avarege and standard deviation of body angular velocities for frequency (saparately for every axis (X, Y, Z))  
+"avarege and standard deviation of body angular velocities for frequency (saparately for every axis (X, Y, Z))"  
 freqBodyGyromeanX  
 freqBodyGyromeanY  
 freqBodyGyromeanZ  
@@ -96,19 +96,19 @@ freqBodyGyrostdX
 freqBodyGyrostdY  
 freqBodyGyrostdZ  
 
-average and standard deviation of body linear accelerations magnitude for frequency  
+"average and standard deviation of body linear accelerations magnitude for frequency"  
 freqBodyAccMagmean  
 freqBodyAccMagstd  
 
-average and standard deviation of body linear accelerations magnitude for frequency to obtain Jerk signal  
+"average and standard deviation of body linear accelerations magnitude for frequency to obtain Jerk signal"  
 freqBodyBodyAccJerkMagmean  
 freqBodyBodyAccJerkMagstd  
 
-average and standard deviation of body angular velocities magnitude for frequency  
+"average and standard deviation of body angular velocities magnitude for frequency"  
 freqBodyBodyGyroMagmean  
 freqBodyBodyGyroMagstd  
 
-average and standard deviation of body angular velocities magnitude for frequency to obtain Jerk signal  
+"average and standard deviation of body angular velocities magnitude for frequency to obtain Jerk signal"  
 freqBodyBodyGyroJerkMagmean  
 freqBodyBodyGyroJerkMagstd  
 
