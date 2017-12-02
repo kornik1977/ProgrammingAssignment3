@@ -3,13 +3,6 @@ This is a code book for a data set from tidyDataset.txt file
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.   
 
-### Cleaning done:
-1. Two sets of data (train data set and test data set - both including 563 variables (attributes)) were merged into one set with 10299 observations
-2. 66 variables measuring the mean and standard deviation for different domains were extracted from the original data set
-3. Descriptive activity names were labelled into data set
-4. Descriptive variables names were labelled into data set
-5. Data set was grouped and summarized (average was counted) according to two generated identifiers (activity and subject)
-
 #### Two generated identifiers:
 
 activity - the type of activity performed when the corresponding measurement was given  
