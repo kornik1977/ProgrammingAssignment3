@@ -48,3 +48,6 @@ names(groupedData) <- gsub("^f", "freq", names(groupedData))
 #view summarized data
 summarizedData <- summarize_all(groupedData, funs(mean))
 View(summarizedData)
+
+#export data into a file
+write.table(summarizedData, "'/summarizedData.txt")
