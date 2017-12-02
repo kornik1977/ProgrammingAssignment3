@@ -33,19 +33,16 @@ yAll<- join(yAll, activity) #join keeps rows order, merge sorts
 xAll[, "subject"] <- subjectAll[,1]
 xAll[, "activity"] <- yAll[,2]
 
-
-
 #extract only variables counting mean() and std(), use regex expression
 meanStd <- grep("[Mm]ean\\(\\)|[Ss]td\\(\\)", names(xAll))
 xData <- select(xAll, meanStd, subject, activity)
 
-#now we can group our data.frame by "active" column
+#now we can group our data.frame by "active" nad "subject" column
 groupedData <- group_by(xData, activity, subject)
 #and change names
 names(groupedData) <- gsub("-", "_", names(groupedData))
 names(groupedData) <- gsub("\\(\\)", "", names(groupedData))
 
-#view summarized data (first 50 rows)
-View(head(summarize_all(groupedData, funs(mean)), 50))
-
-
+#view summarized data
+summarizedData <- summarize_all(groupedData, funs(mean))
+View(summarizedData)
