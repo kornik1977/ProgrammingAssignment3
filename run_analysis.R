@@ -40,8 +40,10 @@ xData <- select(xAll, meanStd, subject, activity)
 #now we can group our data.frame by "active" nad "subject" column
 groupedData <- group_by(xData, activity, subject)
 #and change names
-names(groupedData) <- gsub("-", "_", names(groupedData))
+names(groupedData) <- gsub("-", "", names(groupedData))
 names(groupedData) <- gsub("\\(\\)", "", names(groupedData))
+names(groupedData) <- gsub("^t", "time", names(groupedData))
+names(groupedData) <- gsub("^f", "freq", names(groupedData))
 
 #view summarized data
 summarizedData <- summarize_all(groupedData, funs(mean))
