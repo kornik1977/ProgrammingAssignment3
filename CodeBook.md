@@ -91,6 +91,6 @@ ID | activity | description
 1 | WALKING | subject was walking during the test
 2 | WALKING_UPSTAIRS | subject was walking up the stairs during the test
 3 | WALKING_DOWNSTAIRS | subject was walking down the stairs during the test
-4 | SITTING (value 4) | subject was sitting during the test
+4 | SITTING | subject was sitting during the test
 5 | STANDING | subject was standing during the test
 6 | LAYING | subject was laying down during the test
